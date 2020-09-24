@@ -68,28 +68,12 @@ let questions = [
         answer: 2,
     },
     {
-        question: 'What is the average weight of the human brain?',
-        choice1: '14 kilos',
-        choice2: '14 grams',
-        choice3: '4 kilos',
-        choice4: '2,5 kilos',
-        answer: 3,
-    },
-    {
         question: 'Which Olympic sport is Michael Phelps known for?',
         choice1: 'Snowboarding',
         choice2: 'Skiing',
         choice3: 'Running',
         choice4: 'Swimming',
         answer: 4,
-    },
-    {
-        question: 'What does “FBI” stand for?',
-        choice1: 'Federal Bureau Inspector',
-        choice2: 'Federal Bureau of Investigation',
-        choice3: 'Federal Business of Investigation',
-        choice4: 'Federal Bureau of Inspection',
-        answer: 2,
     },
     {
         question: 'How many keys are on a piano?',
@@ -123,18 +107,10 @@ let questions = [
         choice4: '9',
         answer: 3,
     },
-    {
-        question: 'How many holes are on a standard bowling ball?',
-        choice1: '2',
-        choice2: '3',
-        choice3: '4',
-        choice4: '5',
-        answer: 2,
-    }
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 15
+const MAX_QUESTIONS = 12
 
 startGame = () => {
     questionCounter = 0
