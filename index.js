@@ -12,14 +12,6 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'What is the color of Donald Duck’s bowtie?',
-        choice1: 'red',
-        choice2: 'yellow',
-        choice3: 'blue',
-        choice4: 'white',
-        answer: 1,
-    },
-    {
         question: 'Which country held the 2016 Summer Olympics?',
         choice1: 'China',
         choice2: 'Unitted Kingdom',
@@ -31,16 +23,16 @@ let questions = [
         question: 'In Pirates of the Caribbean, what was the name of Captain Jack Sparrow’s ship?',
         choice1: 'The Marauder',
         choice2: 'The Black Pearl',
-        choice3: 'The Balck Python',
+        choice3: 'The Black Python',
         choice4: 'The Flying Dutchman',
         answer: 2,
     },
     {
         question: 'What is the name of Superman’s home planet?',
-        choice1: 'red',
-        choice2: 'yellow',
+        choice1: 'Argon',
+        choice2: 'Rann',
         choice3: 'Krypton',
-        choice4: 'white',
+        choice4: 'Qward',
         answer: 3,
     },
     {
@@ -60,14 +52,6 @@ let questions = [
         answer: 4,
     },
     {
-        question: 'How many bones are there in the human body?',
-        choice1: '206',
-        choice2: '205',
-        choice3: '201',
-        choice4: '209',
-        answer: 1,
-    },
-    {
         question: 'Fe is the chemical symbol for…?',
         choice1: 'Zinc',
         choice2: 'Hydrogen',
@@ -81,22 +65,6 @@ let questions = [
         choice2: 'Beer',
         choice3: 'Wine',
         choice4: 'Water',
-        answer: 2,
-    },
-    {
-        question: 'Which social media platform came out in 2003?',
-        choice1: 'Facebook',
-        choice2: 'Twitter',
-        choice3: 'Myspace',
-        choice4: 'Tumblr',
-        answer: 3,
-    },
-    {
-        question: 'Which ocean is the largest?',
-        choice1: 'Indian',
-        choice2: 'Pacific',
-        choice3: 'Atlantic',
-        choice4: 'Arctic',
         answer: 2,
     },
     {
@@ -148,14 +116,6 @@ let questions = [
         answer: 2,
     },
     {
-        question: 'What does the Q in IQ stand for?',
-        choice1: 'Quantity',
-        choice2: 'Quorum',
-        choice3: 'Quality',
-        choice4: 'Quotient',
-        answer: 4,
-    },
-    {
         question: 'How many colors in the Rainbow?',
         choice1: '3',
         choice2: '5',
@@ -174,7 +134,7 @@ let questions = [
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 20
+const MAX_QUESTIONS = 15
 
 startGame = () => {
     questionCounter = 0
